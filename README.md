@@ -1,6 +1,6 @@
 # Hairline for Orca
 
-A quiet dark theme for [Orca](https://www.onorca.dev): near-black surfaces, soft gray text and
+A quiet light and dark theme for [Orca](https://www.onorca.dev): near-black surfaces, soft gray text and
 hairline borders that sit just one step above the background. Inspired by the clean, low-chrome
 look of modern AI code editors.
 
