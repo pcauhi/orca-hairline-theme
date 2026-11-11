@@ -8,8 +8,9 @@ It ships:
 
 - **Hairline Dark** app theme: workspace sidebar, tabs, chat, diffs, git decorations and code colors
 - **Hairline Dark** terminal theme with a matching ANSI palette
+- **Hairline Light** app and terminal themes: white editor, light-gray chrome, the same hairline borders and darker syntax colors that stay legible on white
 
-## Palette
+## Palette (Dark)
 
 | Role | Color |
 | --- | --- |
@@ -26,14 +27,28 @@ It ships:
 | Numbers / constants | `#ebc88d` |
 | Properties | `#aa9bf5` |
 
+## Palette (Light)
+
+| Role | Color |
+| --- | --- |
+| Canvas / sidebar | `#f7f7f7` |
+| Editor surface | `#ffffff` |
+| Borders | `#e6e6e6` |
+| Text | `#1f1f1f` |
+| Secondary text | `#666666` |
+| Keywords | `#0f7d78` |
+| Strings | `#b0389f` |
+| Functions | `#b35a00` |
+| Types / links | `#0a6bc4` |
+
 ## Install
 
 ```sh
 orca plugin install pcauhi/orca-hairline-theme
 ```
 
-Then pick **Hairline Dark** in Settings → Appearance (Dark theme) and, for the terminal,
-**Hairline Dark** as the terminal theme.
+Then in Settings → Appearance pick **Hairline Dark** as the Dark theme and **Hairline Light** as
+the Light theme (and the matching terminal themes). With Appearance on System, Orca follows macOS.
 
 ## Develop
 

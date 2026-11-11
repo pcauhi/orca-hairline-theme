@@ -2,8 +2,8 @@
   "manifestVersion": 2,
   "id": "hairline-theme",
   "name": "Hairline",
-  "version": "1.0.0",
-  "description": "A quiet near-black and gray theme with hairline borders, inspired by the look of modern AI code editors. App, code and terminal colors.",
+  "version": "1.1.0",
+  "description": "A quiet near-black and gray theme with hairline borders, inspired by the look of modern AI code editors. Light and dark app, code and terminal colors.",
   "license": "MIT",
   "repository": "https://github.com/pcauhi/orca-hairline-theme",
   "engines": {
@@ -16,6 +16,11 @@
         "id": "hairline-dark",
         "title": "Hairline Dark",
         "path": "themes/hairline-dark.json"
+      },
+      {
+        "id": "hairline-light",
+        "title": "Hairline Light",
+        "path": "themes/hairline-light.json"
       }
     ],
     "terminalThemes": [
@@ -23,6 +28,11 @@
         "id": "hairline-dark",
         "title": "Hairline Dark",
         "path": "terminal/hairline-dark.json"
+      },
+      {
+        "id": "hairline-light",
+        "title": "Hairline Light",
+        "path": "terminal/hairline-light.json"
       }
     ]
   }
